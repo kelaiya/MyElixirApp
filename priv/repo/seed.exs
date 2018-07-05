@@ -10,7 +10,6 @@
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
 alias App.Repo
-alias App.GetImage
+alias App.Image
 
-Repo.delete_all(GetImage)
-Repo.insert! %GetImage{name: "Bill"}
+Repo.insert! %Image{name: "kelaiya"}
